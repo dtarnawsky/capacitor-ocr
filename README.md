@@ -7,6 +7,8 @@
 
 ## Credits
 This project was forked from the [Cap ML](https://github.com/bendyworks/cap-ml) plugin written by Vennela Kodali. It was refactored and converted to Capacitor 4.
+- For Capacitor 4 projects use v4.x
+- For Capacitor 5 projects use v5.x
 
 ## Installation
 
@@ -20,7 +22,7 @@ There is one method `detectText` that takes a filename of an image and will retu
 
 Add the following to your application:
 ```typescript
-import { Ocr, TextDetections } from 'capacitor-ocr';
+import { Ocr, TextDetections } from '@capacitor-community/image-to-text';
 
 ...
 
@@ -39,7 +41,7 @@ You can use the [`@capacitor/camera`](https://capacitorjs.com/docs/apis/camera) 
 
 ```
 import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
-import { Ocr, TextDetections } from 'capacitor-ocr';
+import { Ocr, TextDetections } from '@capacitor-community/image-to-text';
 ```
 
 ...
@@ -60,6 +62,9 @@ for (let detection of data.textDetections) {
 ```
 
 A full sample application can be found [here](https://github.com/dtarnawsky/capacitor-ocr-example).
+
+![video of scanning a card and it being converted to text](https://user-images.githubusercontent.com/84595830/221210852-2203919a-bb43-46ed-b9bf-04d096425dcb.gif)
+
 
 ## iOS Usage
 No additional setup is required to use this plugin in a iOS Capacitor project.
@@ -148,10 +153,10 @@ Detect text in an image
 
 | Members     | Value                |
 | ----------- | -------------------- |
-| **`Up`**    | <code>"UP"</code>    |
-| **`Down`**  | <code>"DOWN"</code>  |
-| **`Left`**  | <code>"LEFT"</code>  |
-| **`Right`** | <code>"RIGHT"</code> |
+| **`Up`**    | <code>'UP'</code>    |
+| **`Down`**  | <code>'DOWN'</code>  |
+| **`Left`**  | <code>'LEFT'</code>  |
+| **`Right`** | <code>'RIGHT'</code> |
 
 </docgen-api>
 

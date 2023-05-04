@@ -1,18 +1,18 @@
 export interface CapacitorOcrPlugin {
-    /**
+  /**
    * Detect text in an image
-   * @param options Options for text detection   
+   * @param options Options for text detection
    */
   detectText(options: DetectTextOptions): Promise<TextDetections>;
 }
 
 export interface DetectTextOptions {
   filename: string;
-  orientation?: ImageOrientation
+  orientation?: ImageOrientation;
 }
 
 export interface TextDetections {
-  textDetections: TextDetection[]
+  textDetections: TextDetection[];
 }
 
 export interface TextDetection {
@@ -24,8 +24,8 @@ export interface TextDetection {
 }
 
 export enum ImageOrientation {
-  Up = "UP",
-  Down = "DOWN",
-  Left = "LEFT",
-  Right = "RIGHT",
+  Up = 'UP',
+  Down = 'DOWN',
+  Left = 'LEFT',
+  Right = 'RIGHT',
 }

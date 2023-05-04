@@ -1,8 +1,8 @@
 export interface CapacitorOcrPlugin {
     /**
-   * Detect text in an image
-   * @param options Options for text detection
-   */
+     * Detect text in an image
+     * @param options Options for text detection
+     */
     detectText(options: DetectTextOptions): Promise<TextDetections>;
 }
 export interface DetectTextOptions {

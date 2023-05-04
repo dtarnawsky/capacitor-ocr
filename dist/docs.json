@@ -128,25 +128,25 @@
       "members": [
         {
           "name": "Up",
-          "value": "\"UP\"",
+          "value": "'UP'",
           "tags": [],
           "docs": ""
         },
         {
           "name": "Down",
-          "value": "\"DOWN\"",
+          "value": "'DOWN'",
           "tags": [],
           "docs": ""
         },
         {
           "name": "Left",
-          "value": "\"LEFT\"",
+          "value": "'LEFT'",
           "tags": [],
           "docs": ""
         },
         {
           "name": "Right",
-          "value": "\"RIGHT\"",
+          "value": "'RIGHT'",
           "tags": [],
           "docs": ""
         }
